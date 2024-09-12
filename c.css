@@ -1,0 +1,63 @@
+* {
+  color: white;
+}
+body {
+  height: 100%;
+  width: 100%;
+  background-color: rgb(130, 204, 130);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#block {
+  height: 700px;
+  width: 650px;
+  background-color: aliceblue;
+  border-radius: 5%;
+  overflow: hidden;
+}
+#blockUp {
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+#headin {
+  display: flex;
+  gap: 10px;
+  color: aliceblue;
+}
+h2 {
+  font-weight: 100px;
+  width: 30%;
+  margin: 2%;
+  display: flex;
+}
+.dh {
+  height: 30px;
+  width: 30px;
+  border-radius: 5%;
+  background-color: #fff;
+}
+#bubble {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 1px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+#bubble:hover {
+  background-color: rgb(130, 204, 130);
+  cursor: pointer;
+}
+#blockDown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#timeInterval , #hitt , #sccore{
+  color:  rgb(130, 204, 130);
+}
